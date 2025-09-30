@@ -16,6 +16,7 @@ target.style.top = random Y + 'px';
 }
 
 target.addEventListener('click' () => {
+    console.log('Clicou');
     score+++;
     scoreDisplay.textContent = score;
     moveTarget();
