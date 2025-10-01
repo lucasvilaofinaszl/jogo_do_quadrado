@@ -29,7 +29,7 @@ const randomTime = Math.floor(Math.random() * 1500) + 500; // Entre 500ms e 2s
       }
     }, 300); // 
   }, randomTime);
-
+}
 
 target.addEventListener('click', () => {
   if (targetVisible) {
