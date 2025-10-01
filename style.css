@@ -2,7 +2,13 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 50px;
-    background: #f0f0f0;
+    background: #2c3e50;
+    color: #ecf0f1;
+}
+
+h1 {
+    font-size: 3em;
+    color: #e74c3c;
 }
 
 #gameArea {
@@ -12,6 +18,7 @@ body {
     margin: 20px auto;
     background-color: #222;
     border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 #target {
@@ -22,4 +29,11 @@ body {
     border-radius: 5px;
     cursor: pointer;
     border: 2px solid white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 20px;
 }
